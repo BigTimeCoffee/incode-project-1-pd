@@ -117,45 +117,71 @@ nav ul li:first-child {
 .box-container {
     display: flex;
     /*align-content: center;*/
-    margin-left: 110px;
+    margin-left: 140px;
 }
 .left {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow:  1px 1px 10px #5c5b5b;
     width: 25%;
-    margin: 20px;
+    margin: 25px;
     background-color: #bcc0c7;
 }
 .center {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow:  1px 1px 10px #5c5b5b;
     width: 25%;
-    margin: 20px;
+    margin: 25px;
     background-color: #bcc0c7;
 }
 .right {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow:  1px 1px 10px #5c5b5b;
     width: 25%;
     
-    margin: 20px;
+    margin: 25px;
     background-color: #bcc0c7;
 }
 .icon-cafe {
     width: 100px;
+    padding-left: 90px;
+    padding-top: 30px;
 }
 .icon-hands {
     width: 100px;
+    padding-left: 90px;
+    padding-top: 30px;
 }
 .icon-book {
     width: 100px;
+    padding-left: 90px;
+    padding-top: 30px;
 }
 .card-text-heading {
     color: white;
     text-align: center;
     font-family: sans-serif;
+    text-shadow:2px 2px 2px #5c5b5b;
 }
 .card-text {
     color: white;
     text-align: center;
     font-family: sans-serif;
     font-size: .65em;
+    padding: 0px 30px 30px 30px;
+ 
 }
-    
+/* Big Button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.big-button {
+    background-color: #707a8a;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow:0px 0px 3px #5c5b5b;
+}
+  
