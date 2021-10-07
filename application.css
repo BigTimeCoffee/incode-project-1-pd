@@ -244,13 +244,55 @@ nav ul li:first-child {
     justify-content: space-around;
     margin-top: 20px;
 }
-.chez-text {
+.chez-text, .almost-text {
     font-family: sans-serif;
     color: #5c5b5b;
     font-weight: 400;
     font-size: 1.1em;
 }
-.chez-image {
+.chez-img {
    width: 430px; 
    height: 650px;
+}
+.almost-coffee-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.almost-img {
+    width: 450px;
+    height: 550px;
+}
+/* Contact Page */
+.waiting{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-size: 1.6em;
+    
+}
+.location-text {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-size: 1.2em;
+}
+.location-text-bold {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.location-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.location-width {
+    width: 700px;
 }
