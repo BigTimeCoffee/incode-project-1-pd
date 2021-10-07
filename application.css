@@ -3,7 +3,6 @@ light-gray: #bcc0c7
 dark-grey: #5c5b5b
 background color: #f5f5f5*/
 
-
 body {
     margin: 0;
     padding: 0;
@@ -45,7 +44,6 @@ nav ul li:first-child {
     padding-left: 30px;
 }
 /* Nav-bar ends */
-
 /* Footer */
 .foot-contain {
     background-color: #707a8a;
@@ -77,8 +75,7 @@ nav ul li:first-child {
     color: #f5f5f5;
 }
 /* Footer ends */
-
-/* Image with text */
+/* Image with text over */
 .logo-mr-c {
     width: 180px;
     margin-left: auto;
@@ -103,8 +100,7 @@ nav ul li:first-child {
     text-shadow:2px 2px 8px black;
 }
 /* Image with text ends */
-
-/* Three things */
+/* Three boxes */
 .three-things, .discover-us {
     font-family: sans-serif;
     color: #5c5b5b;
@@ -184,9 +180,7 @@ nav ul li:first-child {
     border-radius: 10px;
     box-shadow: 0.25px 0.25px 0.25px #bcc0c7;
 }
-
 /* 7 days a week header */
- 
 .days-7 {
     display: flex;
 }
@@ -224,4 +218,39 @@ nav ul li:first-child {
     font-family: sans-serif;
     color: #5c5b5b;
     font-weight: 800;
+}
+/* Pottery & Philosophy ends */
+/* Workshop */
+.workshop-text {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-weight: 500;
+    text-align: center;
+    margin: 60px;
+}
+/* Information */
+.information-text {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-weight: 600;
+    font-size: 1.15em;
+    text-align: center;
+    margin: 70px;
+}
+/* First Page ends */
+/*About Page */
+.chez-coffee-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.chez-text {
+    font-family: sans-serif;
+    color: #5c5b5b;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.chez-image {
+   width: 430px; 
+   height: 650px;
 }
