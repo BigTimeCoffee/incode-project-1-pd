@@ -28,7 +28,7 @@ nav ul li a {
     font-family: "Roboto-Condensed", sans-serif;
     font-size: .65em;
     color:#f5f5f5;
-    background-color: #707a8ad;
+   /* background-color: #707a8ad;*/
     display: block;
     line-height: 3em;
     padding: 1em 1.5em;
@@ -303,7 +303,7 @@ nav ul li:first-child {
     .box-container {
         flex-wrap: wrap;
     }
-    ..image-wrapper img {
+    .image-wrapper img {
         display: flex;
         justify-self: center;
     }

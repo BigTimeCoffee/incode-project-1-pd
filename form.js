@@ -9,7 +9,7 @@ const modal = document.getElementById('modalContainer');
 const button = document.getElementById('close');
 const send = document.getElementById('send');
 
-var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/; // To check valid email
+
 
 form.addEventListener('submit', (e) => {
     var messages = []
@@ -56,7 +56,7 @@ window.onclick = function(e) {
   
 
     
-
+//var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/; // To check valid email
 /*
 function isEmail(email.value) {
 	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email.value);
